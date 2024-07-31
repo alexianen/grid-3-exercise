@@ -1,0 +1,58 @@
+body {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    zoom: 125%;
+}
+
+.page {
+    max-width: 250px;
+    max-height: 500px;
+    padding: 32px;
+}
+
+.month-name {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-weight: bold;
+}
+
+.month {
+    display: grid;
+    grid-template-columns: repeat(7, 32px);
+    grid-template-rows: repeat(7, 40px);
+    gap: 4px;
+}
+
+.week {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.day {
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.day-white {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 1px solid  rgba(0, 0, 0, 0.1)
+}
+
+#mark {
+    border: 1px solid red;
+}
